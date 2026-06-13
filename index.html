@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кинопоиск</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="bg">
+        <h1>Кинопоиск</h1>
+
+        <nav class="bg-dark">
+            <a href="./index.html" class="active">Главная</a>
+            <a href="./favorites.html">Избранное</a>
+        </nav>
+
+        <img src="./img/themeChange.svg" alt="themeChange" id="themeChange">
+    </header>
+
+    <form action="#" class="bg searchForm">
+        <input type="search" id="search" class="bg-dark">
+        <button id="searchBtn" class="bg-dark">Поиск</button>
+    </form>
+    <span class="loader"></span>
+
+    <main class="bg">
+        <section id="film">
+            <h2 class="bg-dark">The Simpsons</h2>
+            <div class="movie">
+                <div class="movieCover" style="background-image: url('./img/film1.jpg');"></div>
+                <div class="movieInfos bg-dark">             
+            </div>
+        </section>
+        <section id="similarFilms">
+            <h2 class="bg-dark">Похожих фильмов 63</h2>
+            <div class="similarMovies">
+                <div class="similarMovie" style="background-image: url('./img/film2.jpg');">
+                    <div class="fav bg-dark">
+                        <img src="./img/favBtn.svg" alt="favorites">
+                    </div>
+                    <div class="similarTitle">
+                        The Simpsons
+                    </div>
+                </div>
+                <div class="similarMovie" style="background-image: url('./img/film3.jpg');">
+                    <div class="fav bg-dark">
+                        <img src="./img/favBtn.svg" alt="favorites">
+                        
+                    </div>
+                    <div class="similarTitle">
+                        The Simpsons
+                    </div>
+                </div>
+                <div class="similarMovie" style="background-image: url('./img/film4.jpg');">
+                    <div class="fav bg-dark">
+                        <img src="./img/favBtn.svg" alt="favorites">
+                    </div>
+                    <div class="similarTitle">
+                        The Simpsons
+                    </div>
+                </div>
+                <div class="similarMovie" style="background-image: url('./img/film5.jpg');">
+                    <div class="fav bg-dark">
+                        <img src="./img/favBtn.svg" alt="favorites">
+                    </div>
+                    <div class="similarTitle">
+                        The Simpsons
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

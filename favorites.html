@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Избранные</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="bg">
+        <h1>Кинопоиск</h1>
+
+        <nav class="bg-dark">
+            <a href="./index.html">Главная</a>
+            <a href="./favorites.html" class="active">Избранное</a>
+        </nav>
+
+        <img src="./img/themeChange.svg" alt="themeChange" id="themeChange">
+    </header>
+
+
+    <main class="bg">
+        <section id="similarFilms" class="favsPage">
+            <h2 class="bg-dark">Фильмов в избранном 63</h2>
+            <div class="similarMovies">
+                <div class="similarMovie" style="background-image: url('./img/film2.jpg');">
+                    <div class="fav bg-dark">
+                        <img src="./img/favBtn.svg" alt="favorites">
+
+                    </div>
+                    <div class="similarTitle">
+                        The Simpsons
+                    </div>
+                </div>
+                <div class="similarMovie" style="background-image: url('./img/film3.jpg');">
+                    <div class="fav bg-dark">
+                        <img src="./img/favBtn.svg" alt="favorites">
+
+                    </div>
+                    <div class="similarTitle">
+                        The Simpsons
+                    </div>
+                </div>
+                <div class="similarMovie" style="background-image: url('./img/film4.jpg');">
+                    <div class="fav bg-dark">
+                        <img src="./img/favBtn.svg" alt="favorites">
+                    </div>
+                    <div class="similarTitle">
+                        The Simpsons
+                    </div>
+                </div>
+                <div class="similarMovie" style="background-image: url('./img/film5.jpg');">
+                    <div class="fav bg-dark">
+                        <img src="./img/favBtn.svg" alt="favorites">
+                    </div>
+                    <div class="similarTitle">
+                        The Simpsons
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="./js/main.js"></script>
+    <script>
+        showFavorites()
+    </script>
+</body>
+
+</html>
